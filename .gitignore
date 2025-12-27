@@ -2,3 +2,7 @@
 build
 install
 log
+
+my_bag
+timed_synthetic_bag
+big_synthetic_bag
