@@ -21,7 +21,8 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Int32.msg"
+  "srv/TwoInts.srv"
+  DEPENDENCIES std_msgs
 )
 
 if(BUILD_TESTING)
